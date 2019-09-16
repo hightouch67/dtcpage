@@ -692,7 +692,15 @@ section{
   .timeline {
     left:15%;
   }
+  .timeline.news {
+    left:0%;
+    max-width: 100%;
 
+  }
+  .timelineitem{
+    padding-top:10px;
+    border-bottom: 1px solid white;
+  }
 
   .large-screen{
     display: none;
