@@ -17,22 +17,59 @@
     type='text/css'>
   <!-- Styles -->
   <link href="css/dtube.css" rel="stylesheet">
+    <!-- Script -->
+  <script src="https://hcaptcha.com/1/api.js" async defer></script>
 </head>
 
 <body id="page-top">
   <!-- Header -->
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark navbar-small" id="mainNav">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#model">A new model: the social blockchain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#trust">Built on trust</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#adfree">Ad-free</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#moderation">Community moderation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#oldnew">Old vs. new</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#tokenmodel">Token model</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#tokengeneration">Token generation event</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Press & contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
         <div class="intro-lead-in">
           <img class="top-logo" src="img/kit/Logo_White.svg">
-          <h1 class="title mt-0">We make social media right</h1>
+          <h1 class="title m-0">We make social media right</h1>
           <div class="subtitle">(+trustworthy, fair, empowering, uncensorable, immutable)</div>
-          <div class="row mt-4 justify-content-md-center">
-            <div class="col-md-auto">
+          <div class="row justify-content-md-center">
+            <div class="col-md-auto mt-3">
               <a class="btnread nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
             </div>
-            <div class="col-md-auto">
+            <div class="col-md-auto mt-3">
               <a class="btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
             </div>
           </div>
@@ -52,8 +89,10 @@
         <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
       </a>
       <div>A NEW MODEL</div>
+      <div class="right-model">
       <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
-      <a class="btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      <a class="ml-3 btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+    </div>
     </div>
   </div>
 
@@ -114,7 +153,7 @@
       <div class="row">
         <div class="col-lg-7">
           <h2 class="section-heading text-uppercase">A new model: </h2>
-          <h3 class="section-subheading text-muted"> the social blockchain</h3>
+          <h3 class="section-subheading text-muted mb-1"> the social blockchain</h3>
           By replacing advertising with the social blockchain concept, the DTube Chain offers a new model based on
           transparency, user empowerment and fairness. As experts in cryptography and decentralized web, we created
           DTube a new video sharing platform that reward each user’s social contributions with a utility token: the
@@ -136,13 +175,13 @@
 
   <!-- Trust -->
   <section id="trust" class="bg-light">
-    <div class="row mt-5">
+    <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-center">Dtube is <span class="section-subheading ">already a hit</span></h2>
         <h4 class="section-sub text-mute text-uppercase">in 20 months</h4>
       </div>
     </div>
-    <div class="row middle container mt-5">
+    <div class="row middle container">
       <div class="row eight-cols mt-5">
         <div class="col-sm-3 mt-5">
           <div class="team-member">
@@ -169,12 +208,12 @@
           </div>
         </div>
         <a class="btnvisit" href="https://d.tube" target="_blank">Visit Dtube</a>
-        <a class="nav-link js-scroll-trigger next" href="#adfree">
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#adfree">
           <div class="arrow a"> </div>
           <div class="arrow b"> </div>
           <div class="arrow c"> </div>
         </a>
-      </div>
     </div>
   </section>
 
@@ -184,7 +223,7 @@
       <div class="row">
         <div class="col-lg-7">
           <h2 class="section-heading text-uppercase">Principle of the </h2>
-          <h3 class="section-subheading text-muted"> DTube Chain </h3>
+          <h3 class="section-subheading text-muted mb-3"> DTube Chain </h3>
           Users on DTube (DTubers) are <strong> rewarded with DTube Coins</strong> each time they publish an original
           content or share a video from the web but also for voting, tagging and commenting a video.
         </div>
@@ -274,7 +313,7 @@
   <section id="tokenmodel" class="bg-light">
     <div class="row middle container">
       <div class="row">
-        <div class="col-lg-4 ml-5 mt-5">
+        <div class="col-lg-4 ml-5 mt-5  mb-5">
           <img src="img/Export/Illus_9.png">
         </div>
         <div class="col-lg-7">
@@ -303,8 +342,8 @@
         <h2 class="section-heading text-center">The old vs. <span class="section-subheading ">the new</span></h2>
       </div>
     </div>
-    <div class="row middle container mt-5">
-      <div class="row">
+    <div class="row middle container mt-5 large-screen">
+      <div class="row mt-5">
         <div class="col-lg-4 tableok text-right">
           </br> </br> </br> </br>
           <strong>
@@ -388,37 +427,171 @@
         <div class="arrow c"> </div>
       </a>
     </div>
+    <div class="row middle container mt-5 small-screen">
+        <div class="row p-0 m-0">
+          <div class="col-4 tableok" style="padding: 40px 0px;">
+            </br> </br>   <p class="bdbot"></p>
+            <strong>
+              Business Model
+            </strong>
+            <p class="bdbot"></p>
+            <strong>
+              Trust
+            </strong>
+            <p class="bdbot"></p>
+            <strong> </br> 
+              Moderation
+            </strong>
+            </br> </br> </br> </br></br>
+            <strong> </br> 
+              Ads
+            </strong>
+            <p class="bdbot"></p>
+            <strong>
+              Privacy
+            </strong>
+          </div>
+          <div class="col-8 tableko" style="padding: 40px 40px 40px 10px;">
+            <strong>
+              Classic Social Medias
+            </strong>
+            <img class="mb-4 d-block" src="img/Export/classic_social_media.png">
+            <strong class="mt-4 tablabel">
+              Targeted advertising
+            </strong>
+            <p class="border-bottom bdleft"></p>
+            <strong>
+              Trust a private conglomerate
+            </strong>
+            <p class="border-bottom bdleft"></p>
+            <strong>
+              <div> Automated</div>
+              <div> Favors virality and showed inefficient in moderating inappropriate content</div>
+              </br>
+            </strong>
+            <p class="border-bottom bdleft"></p>
+            <strong>
+              Intrusive ad pressure
+            </strong>
+            <p class="border-bottom bdleft"></p>
+            <strong>
+              Massive collection of personal data
+            </strong>
+          </div>
+          <div class="col-4 tableok" style="padding: 40px 0px;">
+            </br> </br> </br> </br>
+            <strong>
+              Business Model
+            </strong>
+            <p class="bdbot"></p>
+            <strong> </br> 
+              Trust
+            </strong>
+            <p class="bdbot"></p>
+            <strong> </br>  </br> 
+              Moderation
+            </strong>
+            </br> </br> </br> </br></br>
+            <strong> </br> 
+              Ads
+            </strong>
+            <p class="bdbot"></p>
+            <strong>
+              Privacy
+            </strong>
+          </div>
+          <div class="col-8 tableok">
+            </br>
+            <img class="mb-4 d-block" height="47" src="img/kit/Logo_White.svg">
+            <strong class="mt-4 tablabel">
+              Tokenized audience exposure
+            </strong>
+            <p class="border-bottom bdright"></p>
+            <strong>
+              Trust maths and cryptography
+            </strong>
+            <p class="border-bottom bdright"></p>
+            <strong>
+  
+              <div> Community powered</div>
+              <div> Content’s popularity (upvotes),
+                moderation (downvotes) and
+                classification (tags) is determined</div>
+            </strong>
+            <p class="border-bottom bdright"></p>
+            <strong>
+              No ads
+            </strong>
+            <p class="border-bottom bdright"></p>
+            <strong>
+              No collection of personal data
+            </strong>
+          </div>
+        </div>
+        <a class="row nav-link js-scroll-trigger next" href="#distribution">
+            <div class="arrow a"> </div>
+            <div class="arrow b"> </div>
+            <div class="arrow c"> </div>
+          </a>
+      </div>
   </section>
 
   <div class="barmodel">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
-      </a>
-      <div>A NEW MODEL</div>
-      <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
-      <a class="btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>FOR CURATORS & CREATORS</div>
+        <div class="right-model">
+        <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
+        <a class="ml-3 btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      </div>
+      </div>
     </div>
-  </div>
-
 
   <!-- distribution -->
   <section id="distribution" class="bg-light">
-    <h2 class="section-heading  text-center">DTube Coin distribution: <span class="section-subheading ">how it
-        works</span></h2>
-    <div class="row middle container">
-      <div class="col-6 col-md-4 p-5"> <img height="85" width="auto" src="img/Export/Illus_10.png">
+
+        <div class="row middle container small-screen">
+              <div class="row">
+        <h2 class="section-heading  text-center">DTube Coin distribution: <span class="section-subheading ">how it
+            works</span></h2>
+    </div>
+            <div class=" col-md-auto p-5"> <img height="auto" width="auto" src="img/Export/Illus_10.png">
+              <div class="border-top"><strong>The DTube Chain distributes Voting Power (VP) to every DTuber at a rate of +1
+                  per DTC per hour.</strong></div>
+            </div>
+            <div class=" col-md-auto p-5"> <img height="auto" width="auto" src="img/Export/Illus_11.png">
+              <div class="border-top"> <strong>DTubers spend their VP each time they post, vote, comment or tag a
+                  content.</strong></div>
+            </div>
+            <div class=" col-md-auto p-5"> <img height="auto" width="auto" src="img/Export/Illus_12.png">
+              <div class="border-top"> <strong>In real time, the blockchain algorithm generates and distributes new DTC to
+                  users to reward them according to content popularity and freshness.</strong></div>
+            </div>
+            <div></div>
+            <a class="nav-link js-scroll-trigger next" href="#utilitytoken">
+              <div class="arrow a"> </div>
+              <div class="arrow b"> </div>
+              <div class="arrow c"> </div>
+            </a>
+          </div>
+    <div class="row middle container large-screen">
+            <h2 class="container section-heading  text-center">DTube Coin distribution: <span class="section-subheading ">how it
+                works</span></h2>
+      <div class="col-6 col-md-4 p-5"> <img height="auto" width="auto" src="img/Export/Illus_10.png">
         <div class="border-top"><strong>The DTube Chain distributes Voting Power (VP) to every DTuber at a rate of +1
             per DTC per hour.</strong></div>
       </div>
-      <div class="col-6 col-md-4 p-5"> <img height="85" width="auto" src="img/Export/Illus_11.png">
+      <div class="col-6 col-md-4 p-5"> <img height="auto" width="auto" src="img/Export/Illus_11.png">
         <div class="border-top"> <strong>DTubers spend their VP each time they post, vote, comment or tag a
             content.</strong></div>
       </div>
-      <div class="col-6 col-md-4 p-5"> <img height="85" width="auto" src="img/Export/Illus_12.png">
+      <div class="col-6 col-md-4 p-5"> <img height="auto" width="auto" src="img/Export/Illus_12.png">
         <div class="border-top"> <strong>In real time, the blockchain algorithm generates and distributes new DTC to
             users to reward them according to content popularity and freshness.</strong></div>
       </div>
+      <div></div>
       <a class="nav-link js-scroll-trigger next" href="#utilitytoken">
         <div class="arrow a"> </div>
         <div class="arrow b"> </div>
@@ -432,58 +605,63 @@
   <section id="utilitytoken">
     <h2 class="section-heading  text-center"> The DTube Coin: <span class="section-subheading ">a utility token for
         video</span></h2>
-    <div class="row middle container justify-content-md-center">
-      <div class="col-8 card mb-3 align-self-center">
-        <div class="row no-gutters mb-3">
-          <div class="col-md-2">
-            <img src="img/Export/Illus_13.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-10">
-            <div class="card-body">
-              <strong>For players</strong><span class="text-muted">: hold your DTC to post, vote, comment, tag videos
-                and earn rewards</span>
+    <div class="row middle container justify-content-md-center mt-5">
+      <div class="row">
+          <div class="col-6 card mb-3 align-self-center">
+              <div class="row no-gutters mb-3">
+                <div class="col-md-2">
+                  <img src="img/Export/Illus_13.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <strong>For players</strong><span class="text-muted">: hold your DTC to post, vote, comment, tag videos
+                      and earn rewards</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row no-gutters mb-3">
+                <div class="col-md-2">
+                  <img src="img/Export/Illus_15.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <strong>For fans</strong><span class="text-muted"> (live): Support your favorite creators and curators
+                      with the “donate DTC” feature</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="row no-gutters mb-3">
-          <div class="col-md-2">
-            <img src="img/Export/Illus_14.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-10">
-            <div class="card-body">
-              <strong>For advertisers</strong><span class="text-muted"> (live): Burn DTC to promote videos on the
-                platform</span>
-            </div>
-          </div>
-        </div>
-        <div class="row no-gutters mb-3">
-          <div class="col-md-2">
-            <img src="img/Export/Illus_15.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-10">
-            <div class="card-body">
-              <strong>For fans</strong><span class="text-muted"> (live): Support your favorite creators and curators
-                with the “donate DTC” feature</span>
-            </div>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-md-2">
-            <img src="img/Export/Illus_16.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-10">
-            <div class="card-body">
-              <strong>For viewers</strong><span class="text-muted"> (2020): Spend your DTC to access premium
-                content</span>
-            </div>
-          </div>
-        </div>
-        <a class="nav-link js-scroll-trigger next" href="#economiccycle">
-          <div class="arrow a"> </div>
-          <div class="arrow b"> </div>
-          <div class="arrow c"> </div>
-        </a>
-      </div>
+            <div class="col-6 card mb-3 align-self-center">
+                <div class="row no-gutters mb-3">
+                  <div class="col-md-2">
+                    <img src="img/Export/Illus_14.png" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body">
+                      <strong>For advertisers</strong><span class="text-muted"> (live): Burn DTC to promote videos on the
+                        platform</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row no-gutters">
+                  <div class="col-md-2">
+                    <img src="img/Export/Illus_16.png" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body">
+                      <strong>For viewers</strong><span class="text-muted"> (2020): Spend your DTC to access premium
+                        content</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <a class="nav-link js-scroll-trigger next" href="#economiccycle">
+                  <div class="arrow a"> </div>
+                  <div class="arrow b"> </div>
+                  <div class="arrow c"> </div>
+                </a>
+              </div>
     </div>
   </section>
 
@@ -491,7 +669,7 @@
   <section id="economiccycle" class="bg-light">
     <h2 class="section-heading  text-center"> DTC economic cycle</h2>
     <div class="row middle container justify-content-md-center">
-      <div class="col-10 card mb-3 align-self-center">
+      <div class="col-md-auto col-lg-10 card mb-3 align-self-center">
         <div class="row no-gutters mb-3">
           <img src="img/Export/Illus_17.png" class="card-img" alt="...">
         </div>
@@ -505,17 +683,18 @@
     </div>
   </section>
 
-
   <div class="barmodel">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
-      </a>
-      <div>A NEW MODEL</div>
-      <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
-      <a class="btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>TOKEN MODEL</div>
+        <div class="right-model">
+        <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
+        <a class="ml-3 btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      </div>
+      </div>
     </div>
-  </div>
 
 
   <!-- keyplayer -->
@@ -524,7 +703,7 @@
       <div class="row">
         <div class="col-lg-7">
           <h2 class="section-heading text-uppercase">A new key player: </h2>
-          <h3 class="section-subheading text-muted"> the curator </h3>
+          <h3 class="section-subheading text-muted mb-3"> the curator </h3>
           On DTube, content curators use their skills to reveal the best videos of the web by posting a link of a
           third-party video website and by voting and tagging the most relevant video posts on DTube.
           </br>
@@ -537,7 +716,7 @@
         <div class="col-lg-4 ml-5 mt-5">
           <img src="img/Export/Illus_18.png">
         </div>
-        <a class="nav-link js-scroll-trigger next" href="#moderation">
+        <a class="nav-link js-scroll-trigger next" href="#protecting">
           <div class="arrow a"> </div>
           <div class="arrow b"> </div>
           <div class="arrow c"> </div>
@@ -546,8 +725,8 @@
     </div>
   </section>
 
-  <!-- Moderation -->
-  <section id="moderation" class="bg-light">
+  <!-- Protecting -->
+  <section id="protecting" class="bg-light">
     <div class="row middle container">
       <div class="row justify-content-md-center">
         <div class="col-lg-4">
@@ -583,7 +762,7 @@
           </div>
         </div>
       </div>
-      <a class="nav-link js-scroll-trigger next" href="#protecting">
+      <a class="nav-link js-scroll-trigger next" href="#tokenlaunch">
         <div class="arrow a"> </div>
         <div class="arrow b"> </div>
         <div class="arrow c"> </div>
@@ -593,24 +772,26 @@
 
 
   <div class="barmodel">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
-      </a>
-      <div>A NEW MODEL</div>
-      <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
-      <a class="btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>TOKEN GENERATION EVENT</div>
+        <div class="right-model">
+        <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
+        <a class="ml-3 btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      </div>
+      </div>
     </div>
-  </div>
 
 
   <!-- protecting -->
-  <section id="protecting">
+  <section id="tokenlaunch">
     <div class="row middle container">
       <div class="row justify-content-md-center">
         <div class="col-lg-6 ">
           <h2 class="section-heading text-uppercase">Token launch: </h2>
-          <h3 class="section-subheading text-muted"> DTC airdrop </h3>
+          <h3 class="section-subheading text-muted mb-3"> DTC airdrop </h3>
           In Q3, 2019, the DTube Chain will start with an initial amount of
           <div class="text-center">
             <div class="tokens">100,000,000 DTC tokens</div>
@@ -619,7 +800,7 @@
             that will be distributed to the DTube Community, to the DTube team and to investors via an IEO token sale.
           </div>
         </div>
-        <div class="col-lg-4 ml-5 mt-5">
+        <div class="col-lg-4 col-md-12 mt-5">
           <img src="img/Export/Illus_25.png">
         </div>
       </div>
@@ -632,12 +813,12 @@
   </section>
 
   <!-- tokensale -->
-  <section id="tokensale">
+  <section id="tokensale" class="bg-light">
     <div class="row middle container">
       <div class="row justify-content-md-center">
         <div class="col-lg-6 ">
           <h2 class="section-heading text-uppercase">Token sale: </h2>
-          <h3 class="section-subheading text-muted"> DTC Initial Exchange Offering (IEO)</h3>
+          <h3 class="section-subheading text-muted mb-3"> DTC Initial Exchange Offering (IEO)</h3>
           <div>
             DTube will conduct an Initial Exchange Offering (IEO) to fund its future development.
             DTube has established as the #1 DApp in social medias, collected funds will allow us to promote the concept
@@ -650,11 +831,11 @@
             <div>tokens in total will be sold via several rounds.</div>
           </div>
         </div>
-        <div class="col-lg-4 ml-5 mt-5 text-center">
+        <div class="col-lg-4 col-md-auto  mt-5 text-center">
           <img src="img/Export/Illus_26.png">
           <button class="btnbuy big my-3" href="#contact">Buy DTC now</button>
           <img src="img/Export/Illus_27.png">
-          <div>Sale starts in XXX.</div>
+          <div class="mt-2">Sale starts on 20th September.</div>
         </div>
       </div>
       <a class="nav-link js-scroll-trigger next" href="#roadmap">
@@ -669,10 +850,9 @@
   <!-- roadmap -->
   <section id="roadmap">
     <h2 class="section-heading  text-center">Roadmap</h2>
-    <div class="row middle container justify-content-md-center">
-      <div class="row justify-content-md-center">
-
-        <ul class="timeline col-8 mt-5 row justify-content-md-center">
+      <div class="container columns justify-content-md-center">
+          <div>
+        <ul class="timeline col-lg-6 mt-5 row justify-content-md-center">
           <li class="event" data-date="August, 2017">
             <p>DTube launch on the Steem blockchain</p>
           </li>
@@ -710,6 +890,8 @@
           </li>
         </ul>
       </div>
+    </div>
+      <div class="ontainer justify-content-md-center">
       <a class="nav-link js-scroll-trigger next" href="#latestnews">
         <div class="arrow a"> </div>
         <div class="arrow b"> </div>
@@ -721,20 +903,29 @@
 
 
   <div class="barmodel">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
-      </a>
-      <div>A NEW MODEL</div>
-      <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
-      <a class="btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>PRESS & CONTACT</div>
+        <div class="right-model">
+        <a class="btnread-inverted nav-link js-scroll-trigger" href="#contact">Read the white paper</a>
+        <a class="ml-3 btnbuy nav-link js-scroll-trigger" href="#contact">Buy DTC now</a>
+      </div>
+      </div>
     </div>
-  </div>
 
   <!-- latestnews -->
   <section id="latestnews" class="bg-light">
     <h2 class="section-heading  text-center">Our latest news</h2>
-    <div class="row middle container justify-content-md-center">
+    <div class="container columns justify-content-md-center">
+        <div>
+      <ul class="timeline  mt-5 row justify-content-md-center" id="steemit-widgets-blog">
+              </ul>
+              <div class="text-center">
+                <a href="https://steemit.com/@dtube" class="btn btn-read" target="_blank">More on Steemit.com</a>
+              </div>
+          </div>
       <a class="nav-link js-scroll-trigger next" href="#joincommunity">
         <div class="arrow a"> </div>
         <div class="arrow b"> </div>
@@ -749,38 +940,38 @@
       <div class="row justify-content-md-center text-center">
         <div class="col-12">
           <h2 class="section-heading text-uppercase">Join the </h2>
-          <h3 class="section-subheading text-muted"> DTube Community</h3>
+          <h3 class="section-subheading text-muted mb-3"> DTube Community</h3>
         </div>
-        <div class="col-lg-2 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
           <img src="img/Export/picto_Steemit_ON.png">
           Steemit
         </div>
-        <div class="col-lg-2 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
           <img src="img/Export/picto_discord_ON.png">
           Discord
         </div>
-        <div class="col-lg-2 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
           <img src="img/Export/picto_twitter_ON.png">
           Twitter
         </div>
-        <div class="col-lg-2 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
           <img src="img/Export/picto_telegram_ON.png">
           Telegram
         </div>
-        <div class="col-lg-2 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
           <img src="img/Export/picto_reddit_ON.png">
           Reddit
         </div>
-        <div class="col-lg-2 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
           <img src="img/Export/picto_linkedin_ON.png">
           Linkedin
         </div>
-        <div class="col-lg-2 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
           <img src="img/Export/picto_bitcoin_talk_ON.png">
           Bitcointalk
         </div>
       </div>
-      <a class="nav-link js-scroll-trigger next" href="#moderation">
+      <a class="nav-link js-scroll-trigger next" href="#press">
         <div class="arrow a"> </div>
         <div class="arrow b"> </div>
         <div class="arrow c"> </div>
@@ -788,49 +979,76 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
+  <!-- Press -->
+  <section id="press">
     <div class="row middle container ">
       <div class="row justify-content-md-center text-center">
         <div class="col-12">
           <h2 class="section-heading text-uppercase">The press talks </h2>
-          <h3 class="section-subheading text-muted"> about us</h3>
+          <h3 class="section-subheading text-muted mb-3"> about us</h3>
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
           <img src="img/Export/logo_medium.png">
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
           <img src="img/Export/logo_wired.png">
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
           <img src="img/Export/logo_bloomberg.png">
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
           <img src="img/Export/logo_fossbytes.png">
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
           <img src="img/Export/logo_adslzone.png">
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
           <img src="img/Export/logo_korben.png">
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
           <img src="img/Export/logo-omicrono.png">
         </div>
       </div>
-
+      <a class="nav-link js-scroll-trigger next" href="#contact">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
     </div>
   </section>
 
   <!-- Contact -->
   <section id="contact">
-    <div class="row middle container ">
-      <div class="row justify-content-md-center text-center">
+      <div class="row middle container ">
+          <div class="row justify-content-md-center text-center">
         <div class="col-12">
           <h2 class="section-heading text-uppercase">Contact </h2>
-          <h3 class="section-subheading text-muted"> us</h3>
+          <h3 class="section-subheading text-muted mb-3"> us</h3>
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="container">  
+            <form id="contact" action="" method="post">
+              <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+              </fieldset>
+              <div id='captchaContainer'>
+                  <div class="h-captcha" data-sitekey="7816bec3-01e0-4c93-8252-dec58d7b1da9"></div> 
+                </div>
+              <fieldset>
+                <button class="btnread-inverted" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+          <div class="row mb-5">  
+        <div class="col col-lg-4 col-md-12 mt-5 text-center">
           <img src="img/Export/Illus_29.png">
           Investors:
           <div>
@@ -839,7 +1057,7 @@
           </a>
         </div>
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col col-lg-4 col-md-12 mt-5 text-center">
           <img src="img/Export/Illus_30.png">
           <div>
               Press:
@@ -849,15 +1067,16 @@
           </div>
 
         </div>
-        <div class="col-lg-3 ml-5 mt-5 text-center">
+        <div class="col col-lg-4 col-md-12 mt-5 text-center">
           <img src="img/Export/Illus_31.png">
           <div>
-          General enquiries:
+          General:
           <a href="#joincommunity">
             contact@d.tube
           </a>
         </div>
         </div>
+      </div>
       </div>
     </div>
   </section>
@@ -872,8 +1091,23 @@
             </div>
           </div>
   </footer> -->
-  <div>
-  </div>
+  <template id="steemit-widgets-blog-template">
+      <li> 
+         <img src="${image}" width="100px">
+        <a href="${URL}" target="_blank" >
+          <div class="timeline-image">
+            <span class="timelinenumber">${DATE}</span>
+            <img class="blogimg rounded-circle img-fluid" src="" alt=""> 
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>${TITLE}</h4>
+        </a>
+        </div>
+      </li>
+    </template>
+  
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -888,16 +1122,26 @@
 
   <!-- scripts -->
   <script src="https://buttons.github.io/buttons.js" async defer></script>
-  <script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
-  <!-- <script>
-   $(window).scroll(function(){
-        if ($(window).scrollTop() > window.innerHeight-42) {
-          $('.sidenav').addClass('sticky'); 
-        } else {
-            $('.sidenav').removeClass('sticky');
+  <script src="https://cdn.jsdelivr.net/npm/steem/dist/steem.min.js"></script>
+  <script src="https://mktcode.github.io/steemit-widgets/assets/js/steemit-widgets.min.js"></script>
+
+  <script>
+      steem.api.setOptions({
+        url: 'https://api.steemit.com'
+      });
+      steemitWidgets.blog({
+        user: 'dtube',
+        element: 'steemit-widgets-blog',
+        template: 'steemit-widgets-blog-template',
+        limit: 7,
+        defaultImage: 'https://steemitimages.com/DQmXYX9hqSNcikTK8ARb61BPnTk4CKMhaiqr22iCKD8CKsp/steemit-logo.png',
+        updateInterval: 0,
+        resteemedIndicator: '<i class="fa fa-refresh" title="resteemed"></i>',
+        dateCallback: function (date) {
+          return moment.utc(date).format('DD MMM YYYY');
         }
-      }); 
-  </script> -->
+      });
+    </script>
 </body>
 
 </html>
