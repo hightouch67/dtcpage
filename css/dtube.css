@@ -822,6 +822,9 @@ section{
   max-width: 100%;
   font-size: 2em;
   color: #223154;
+  position: sticky;
+  top: 0vh;
+  z-index: 999;
 }
 
 .navbar-expand-lg .navbar-nav {
