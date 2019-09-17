@@ -173,7 +173,8 @@
           </div>
         </div>
         <div class="col-lg-4 ml-5 mt-5">
-          <img src="img/Export/Illus_1.png">
+          <img src="img/Export/Illus_1.png" class="fadeIn skrollable skrollable-between" data-900-top="opacity: 0.2;top: 96px;transform:translateY(190px) scale(0.5);"
+          data-400-top="opacity: 1;bottom: 61px;transform:translateY(0px) scale(1);" >
         </div>
         <a class="nav-link js-scroll-trigger next" href="#trust">
           <div class="arrow a"> </div>
@@ -204,23 +205,23 @@
         <h4 class="section-sub text-mute text-uppercase">in 20 months</h4>
       </div>
     </div>
-    <div class="row middle container">
+    <div class="row middle container wow fadeIn">
       <div class="row eight-cols mt-5">
         <div class="col-sm-3 mt-5">
           <div class="team-member">
-            <img class="imgtrust" src="img/Export/Illus_2.png">
+            <img class="imgtrust" src="img/Export/Illus_2.png"">
             <h5 class="px-5 mx-4">1 video shared every 3 minute</h5>
           </div>
         </div>
         <div class="col-sm-3 mt-5">
           <div class="team-member">
-            <img class="imgtrust" src="img/Export/Illus_3.png">
+            <img class="imgtrust" src="img/Export/Illus_3.png" >
             <h5 class="px-5 mx-4">189,000 registered creators and curators</h5>
           </div>
         </div>
         <div class="col-sm-3 mt-5">
           <div class="team-member">
-            <img class="imgtrust" src="img/Export/Illus_4.png">
+            <img class="imgtrust" src="img/Export/Illus_4.png" >
             <h5 class="px-5 mx-4">2.1 Million Monthly Unique Visitors</h5>
           </div>
         </div>
@@ -896,9 +897,9 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-auto  mt-5 text-center">
-          <img src="img/Export/Illus_26.png">
-          <button class="btnbuy big my-3" href="https://signup.d.tube/token-sale">Buy DTC now</button>
-          <img src="img/Export/Illus_27.png">
+          <img class="mb-4" src="img/Export/Illus_26.png">
+          <a class="btnbuy big m-5" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+          <img class="mt-4" src="img/Export/Illus_27.png">
           <div class="mt-2">Sale starts on 20th September.</div>
         </div>
       </div>
@@ -1197,14 +1198,27 @@
   <script src="js/dtube.min.js"></script>
   <script src="vendor/skrollr.min.js"></script>
   <script src="vendor/wow.js"></script>
-  <script src="vendor/chartist.min.js"></script>
-	<script src="vendor/chartist-legend.js"></script>
   <!-- scripts -->
   <script src="https://buttons.github.io/buttons.js" async defer></script>
   <script src="https://cdn.jsdelivr.net/npm/steem/dist/steem.min.js"></script>
   <script src="https://mktcode.github.io/steemit-widgets/assets/js/steemit-widgets.min.js"></script>
 
   <script>
+    new WOW().init();
+    var mySkrollr = skrollr.init({
+    forceHeight: false,
+    easings: {
+        easeOutBack: function (p, s) {
+            s = 1.70158;
+            p = p - 1;
+            return (p * p * ((s + 1) * p + s) + 1);
+        }
+    },
+    mobileCheck: function() {
+        //hack - forces mobile version to be off
+        return false;
+    }
+    });
     steem.api.setOptions({
       url: 'https://api.steemit.com'
     });
