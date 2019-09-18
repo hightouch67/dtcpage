@@ -577,6 +577,10 @@ h2 .section-subheading {
 
 }
 
+.abs{
+  position: absolute;
+}
+
 .tableko{
   background: rgba(240, 26, 47, 0.329);
   padding: 40px;
@@ -712,6 +716,10 @@ section{
 
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
+
+  .illus8{
+    height: 200px;
+  }
 
   .nav-link.btnread {
     padding: 1rem 1rem;
@@ -860,7 +868,7 @@ section{
   display: -ms-flexbox;
   padding: 20px 0px;
   max-width: 100%;
-  font-size: 2em;
+  font-size: 1.7em;
   color: #223154;
   position: sticky;
   top: 0vh;
@@ -928,10 +936,10 @@ display: inline;
 .tokens{
   border: 1px solid #f01a30;
   display: inline-block;
-  padding: 5px;
+  padding: 20px;
   margin: 10px 0px;
-  font-size: 24px;
-  font-weight:500;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 .text-red{
